@@ -1,29 +1,29 @@
+////
+////  Button.swift
+////  Fruitness
+////
+////  Created by Izzat Jabali on 29/9/20.
+////
 //
-//  Button.swift
-//  Fruitness
+//import Foundation
 //
-//  Created by Izzat Jabali on 29/9/20.
+////Struct is a value type!
+//struct Button {
 //
-
-import Foundation
-
-//Struct is a value type!
-struct Button {
-    
-    var isPressed = false
-    var isMatched = false
-    var identifier: Int
-    
-    
-    static var identifierFactory = 0
-    static func getUniqueIdentifier() -> Int {
-     identifierFactory += 1
-        return identifierFactory
-        
-    }
-    init(identifier: Int) {
-        self.identifier = Button.getUniqueIdentifier()
-    }
-}
-
-
+//    var isPressed = false
+//    var isMatched = false
+//    var identifier: Int
+//
+//
+//    static var identifierFactory = 0
+//    static func getUniqueIdentifier() -> Int {
+//     identifierFactory += 1
+//        return identifierFactory
+//
+//    }
+//    init(identifier: Int) {
+//        self.identifier = Button.getUniqueIdentifier()
+//    }
+//}
+//
+//
