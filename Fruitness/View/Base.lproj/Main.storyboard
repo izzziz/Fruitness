@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jIe-oE-b6k">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
@@ -36,7 +36,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="104" id="tq0-iU-Tla"/>
                                     <constraint firstAttribute="width" constant="652.5" id="tyD-gL-Fc8"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="45"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -65,12 +65,12 @@
                                     <constraint firstAttribute="height" constant="122" id="te4-lK-hl3"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="337" id="y9A-VS-lFl"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="33"/>
-                                <state key="normal" title="REPLAY !">
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="50"/>
+                                <state key="normal" title="REPLAY GAME !">
                                     <color key="titleColor" red="0.0" green="1" blue="0.95322716249999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="replayGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jXx-Pk-AKf"/>
+                                    <action selector="replayGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pkk-E6-frr"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cnH-S6-Rsm">
@@ -333,7 +333,7 @@
                                 </state>
                                 <connections>
                                     <action selector="startGame:" destination="jIe-oE-b6k" eventType="touchUpInside" id="IbI-hQ-vkF"/>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="qiJ-mu-Gki"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Foj-N3-tcI"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🍊🍑🍒🍓🍇🥭🍌🍎🍉" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="deB-RN-igq">

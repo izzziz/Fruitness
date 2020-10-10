@@ -14,8 +14,8 @@ class StartGameViewContoller: UIViewController {
     
     
     @IBAction func startGame(_ sender: UIButton) {
-//        performSegue(withIdentifier: "GameViewController", sender: self)
+       // performSegue(withIdentifier: "GameViewController", sender: self)
     }
-    
+
 }
-    
+
