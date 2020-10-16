@@ -90,6 +90,9 @@ class GameViewController: UIViewController {
         optionButton7.backgroundColor = UIColor.clear
         optionButton8.backgroundColor = UIColor.clear
         
+        fruitLabel.text = fruitness.getFruitText()
+        progressBar.progress = Float(fruitness.getProgress())
+        scoreLabel.text = "SCORE: \(fruitness.getScore())"
         
         
         
