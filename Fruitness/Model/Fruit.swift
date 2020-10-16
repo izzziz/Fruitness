@@ -9,17 +9,18 @@ import Foundation
 
 struct Fruit {
     
-    var isPressed = false
-    var isMatched = false
-    var identifier: Int
+
+    var id : Int
     var name: String
     var fruit: String
     
     
-    init(identifier : Int, fruit : String, name : String) {
-        self.identifier = identifier
+
+    init(id : Int, fruit : String, name : String) {
+        self.id = id
         self.name = name
         self.fruit = fruit
+        
     }
-    
+
 }

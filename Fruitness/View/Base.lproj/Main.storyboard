@@ -282,6 +282,15 @@
                     <navigationItem key="navigationItem" id="A9y-KZ-6Vx"/>
                     <connections>
                         <outlet property="fruitLabel" destination="lHK-F9-dSc" id="GF3-Zz-Ilc"/>
+                        <outlet property="optionButton0" destination="0p7-SQ-uMx" id="1DO-P8-5vj"/>
+                        <outlet property="optionButton1" destination="kuf-WG-Qaj" id="HbF-ka-ZvK"/>
+                        <outlet property="optionButton2" destination="pE9-FV-j4f" id="M8V-fu-aWO"/>
+                        <outlet property="optionButton3" destination="Dwe-bd-je5" id="ZVR-JN-tlB"/>
+                        <outlet property="optionButton4" destination="a1N-kI-Yrx" id="PaJ-rc-RCz"/>
+                        <outlet property="optionButton5" destination="ubE-es-TeP" id="1hb-ri-FRK"/>
+                        <outlet property="optionButton6" destination="ULe-8y-VXB" id="x0X-4c-xdF"/>
+                        <outlet property="optionButton7" destination="WGe-is-2Xx" id="9Za-sN-yiu"/>
+                        <outlet property="optionButton8" destination="5mY-mv-0Kv" id="uDV-D7-CjX"/>
                         <outlet property="playAgain" destination="4cF-yh-QxY" id="FkM-RM-ATf"/>
                         <outlet property="progressBar" destination="x9j-hZ-Z9t" id="BVc-ba-i9h"/>
                         <outlet property="scoreLabel" destination="NiR-70-Qhd" id="ZrN-pd-vW2"/>
