@@ -8,14 +8,8 @@
 import UIKit
 
 class StartGameViewContoller: UIViewController {
- 
-    
-    @IBOutlet weak var playTheGame: UIButton!
-    
-    
-    @IBAction func startGame(_ sender: UIButton) {
-       // performSegue(withIdentifier: "GameViewController", sender: self)
-    }
 
 }
+
+
 
